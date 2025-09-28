@@ -1,0 +1,55 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub/
+.buildlog/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Env/Secrets
+*.env
+*.env.*
+env/*.json
+secrets/**
+lib/config/
+
+# Android
+android/local.properties
+android/key.properties
+**/*.jks
+**/*.keystore
+android/.gradle/
+android/captures/
+
+# iOS/macOS (CocoaPods & generated)
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/flutter_export_environment.sh
+
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Coverage
+coverage/
+
+# Portfolio cleanup - unused platform directories
+linux/
+macos/
+test/
+web/
+windows/
